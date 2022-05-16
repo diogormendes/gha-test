@@ -4,6 +4,8 @@
         "test": "jest"
     },
     "dependencies": {
-        "express": "^4.17.3"
+        "express": "^4.17.3",
+        "jest": "^28.1.0",
+        "supertest": "^6.2.3"
     }
 }
