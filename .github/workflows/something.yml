@@ -1,5 +1,11 @@
 name: testCI
-on: [push, pull_request]
+on: 
+  push:
+    branches:
+      - main
+  pull_request:
+  schedule:
+    - cron: '*/55 19 * * 1'
 jobs:
   run-test:
     runs-on: ubuntu-latest
